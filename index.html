@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>EASY STATISTICS</h1>
+    <div class="container">
+        <form>
+            <label for="entrada">Entre os números:</label>
+            <input type="number" name="entrada" id="entrada">
+            <div class="bottom-buttons">
+                <input type="submit" value="Incluir" id="incluir">
+                <input type="button" value="Concluir" class="generate-button" id="generate_button">
+                <input type="button" value="Reset" id="reset">
+            </div>
+        </form>
+        <div id="last-values">
+
+        </div>
+        <div id="results">
+
+        </div>
+    </div>
+    <script src="Tabela.js"></script>
+    <script src="DistribuicaoFrequencia.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

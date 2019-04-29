@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="org.joaoruani.easystatistics">
+    <name>Easy Statistics</name>
+    <description>
+        App para facilitar a vida dos alunos da Melina
+    </description>
+    <author>
+        João Ruani 
+    </author>
+    <icon src="icon.png"/>
+    <gap:splash src="teladecarregamento.jpg"/>
+</widget>
